@@ -43,12 +43,14 @@ h1 {
     font-family: "Playfair Display", serif;
     font-weight: 900;
     color: black;
+    text-align: center  ;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cardd {
@@ -106,6 +108,7 @@ footer p {
     margin: 20px;
     width: 200px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .card h1, h2, p {
@@ -113,5 +116,47 @@ footer p {
 }
 
 .card h1 {
-    font-size: 10px;
+    font-size: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.pe {
+    color: red;
+    padding: 10px;
+}
+
+.eslogan {
+    margin: 10px;
+    padding: 20px;
+    background-image: url(../img/ani.avif);
+}
+
+.eslogan p {
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.eslogan img {
+    width: 300px;
+}
+
+.es {
+    margin: 10px;
+    text-align: center  ;
+}
+
+.cata {
+    font-family: "Cherry Cream Soda", system-ui;
+    text-align: center;
+    padding: 10px;
+}
+
+.historia {
+    width: 800px;
+    text-align: center;
+    padding: 10px;
 }
